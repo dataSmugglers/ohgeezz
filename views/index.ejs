@@ -1,46 +1,5 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-	</head>
-   <body>
-      <center>
-         <img src="img/KidGuyver.png" style="width:1324px;height:280px"/>
-      </center>
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Explores</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Post</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-               </li>
-            </ul>
-            <li class="nav-item">
-               <a class="nav-link" href="#">To Login Page</a>
-            </li>
-         </div>
-      </nav>
-      <div class="row">
-         <img src="./img/Futures.jpg"/>
-      </div>
-      <div class="mx-auto" style="width: 200px;" id="Boxes">
+<%- include('header'); -%>
+      <div class="col-md-5 offset-md-5" id="Boxes">
          <div class="row">
             <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-bottom: 3em; margin-top: 3em">
                Kids enter here
@@ -58,3 +17,4 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
    </body>
 </html>
+<%- include('footer'); -%>
